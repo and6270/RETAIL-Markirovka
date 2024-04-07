@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c77e7896-506b-41ad-b2e1-0031ecd85fff" extendedConfigurationObject="d592b3b9-060a-4914-b3a2-a34cff3216dd">
+  <producedTypes>
+    <objectType typeId="4d847b1c-0884-4c0b-a44a-0143ccf98a78" valueTypeId="37cb7237-e3c4-4850-922f-bd6d5db1e327"/>
+    <refType typeId="12acb503-eed1-4b4f-878d-3447beea1991" valueTypeId="03389aca-82c6-4c25-9464-6efb04f38837"/>
+    <selectionType typeId="f9e5e28e-cc7b-4692-88ed-c758f68cd79b" valueTypeId="737bbc8d-0930-4059-a997-c2a02701c24b"/>
+    <listType typeId="538fb47a-b1e9-42df-a166-8197090ff42a" valueTypeId="276af9ca-774a-4ab5-9bd2-7de80787e992"/>
+    <managerType typeId="51b9459b-af2b-4116-a987-42c762e77a7a" valueTypeId="2a919722-61f1-486a-935c-52ad9507bda8"/>
+    <containerType typeId="f4b09cea-f90e-4b56-8eff-4a7e2795958e" valueTypeId="f705bdd9-bc00-450c-99c9-6b18b5421ff2"/>
+  </producedTypes>
+  <name>ТипыШтрихкодов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+    <codeLength>Extended</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Extended</descriptionLength>
+    <predefined>Checked</predefined>
+  </extension>
+  <type/>
+  <descriptionLength>25</descriptionLength>
+  <predefined>
+    <items id="22c25ac4-06c4-4964-9f20-83df258f0799">
+      <name>ITF14</name>
+      <description>ITF14</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+</mdclass:ChartOfCharacteristicTypes>

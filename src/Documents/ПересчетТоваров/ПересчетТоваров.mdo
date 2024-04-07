@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e9597770-c2b6-4cfd-a518-a87d66d1a6a0" extendedConfigurationObject="f3a40be4-b0ac-41b6-bdeb-f24b5a74cd2c">
+  <producedTypes>
+    <objectType typeId="b050386b-5072-4f87-b82d-05c9ca0326e2" valueTypeId="c7de479a-bb68-4b79-838a-501564b300a5"/>
+    <refType typeId="8e152fd1-3e48-4d3d-a7ee-6c2b05148e34" valueTypeId="2efab842-a91f-407a-b1f4-3ddcaf7eb63e"/>
+    <selectionType typeId="5c9ff8a1-13e1-42f6-9cb6-82d957eea256" valueTypeId="dc0d2241-ed8c-4d39-88bc-fe4e73589ce6"/>
+    <listType typeId="d08382b6-c137-4734-8c91-5a4796752157" valueTypeId="3e0955eb-24a3-4566-bd74-b2af476a017d"/>
+    <managerType typeId="32e11332-e857-4109-9433-45c95eecb1e1" valueTypeId="c16956a2-7ec6-41de-88f8-87fc3d4814d9"/>
+  </producedTypes>
+  <name>ПересчетТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="d8f14a12-b68b-45da-877d-adc418f78cad" extendedConfigurationObject="f9f23e30-3070-4561-ab28-bec3669377e3">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

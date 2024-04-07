@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e1112fc-e8f6-420c-8724-48232c259c23" extendedConfigurationObject="d50d7db2-6feb-4dd8-bc04-86bfe67616ed">
+  <producedTypes>
+    <selectionType typeId="0b334829-94fd-4689-adf4-12bf35b80ffd" valueTypeId="5333e86d-1931-4990-b293-ce249d1cad29"/>
+    <listType typeId="1df37907-a5f5-474d-a087-d86b8e9b8041" valueTypeId="dbe82ce3-d212-4014-a7e1-89be84a22a59"/>
+    <managerType typeId="03460ba4-af74-4f97-b27e-34c3d1053ed2" valueTypeId="5a79aa8c-18e5-4cc5-9176-49e68b9ac610"/>
+    <recordSetType typeId="3874fd5e-39f4-4fd8-bbc0-5448d79b0720" valueTypeId="b12ec5aa-4ccc-4e4b-a42f-27dea72d5dcf"/>
+    <recordKeyType typeId="83b811a7-40cc-4d08-875a-ea7d46d01c87" valueTypeId="45a2d0e4-1fd4-498d-a834-c7e7214e4930"/>
+    <recordType typeId="6c78bc55-ae1a-45d3-813f-c324bd1af234" valueTypeId="6aeb217f-d2b8-4f8b-8aff-20a9abf535d3"/>
+    <recordManagerType typeId="b9490241-bf75-4237-bb3e-adf735153857" valueTypeId="17bd11ba-34b1-452e-906a-cc87122e90f2"/>
+  </producedTypes>
+  <name>Штрихкоды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="5731b8df-46fb-4378-8b45-ab5d664784a3" extendedConfigurationObject="49afac4c-e986-408a-ba61-c9371ca8a479">
+    <name>Штрихкод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ТипыШтрихкодов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="73b1a499-8939-46ef-850e-a3fbd0a9ccd7" extendedConfigurationObject="d3a78b3e-601e-4d06-82a6-d6d63e796906">
+    <name>Владелец</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="d3adc275-a158-492a-b099-fcf8152631d5" extendedConfigurationObject="04782150-6fff-4ce5-8077-3ba581277ec9">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="59d25400-83d4-4796-bd2b-fd8bf3ff8b22" extendedConfigurationObject="97f6a3f1-b8e8-4949-92ff-5e8d4d5761e2">
+    <name>Упаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="d1187672-269e-4151-a77d-a3c9c4617643" extendedConfigurationObject="f2ae8edc-c8fe-4804-b315-9c6a4c298c82">
+    <name>ТипШтрихкода</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.ТипыШтрихкодов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ffa416b4-0828-484a-8ba2-b32efc049c1c" extendedConfigurationObject="1441036e-50d8-4916-88b4-17585b9027fe">
+  <producedTypes>
+    <refType typeId="77be9e33-78c2-4afa-bc79-ccdff8ba92a0" valueTypeId="33b6797b-e0a7-450d-ab51-bf49f462887e"/>
+    <listType typeId="33ee4030-f75d-4830-9e2b-996adf52c0e5" valueTypeId="3736b410-da7a-4c6e-bc57-b0b4d3836267"/>
+    <managerType typeId="860cc69b-2991-4205-bd22-7254b220bb47" valueTypeId="be973570-f6dc-4aef-b2a9-096f05839932"/>
+  </producedTypes>
+  <name>ШаблоныКодовМаркировкиСУЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cc98be9d-8d18-4c58-9510-ec260e98cb94" extendedConfigurationObject="9f9aa2be-d158-4dfa-b74e-b68aede32fb1">
+    <name>ЛегкаяПромышленность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

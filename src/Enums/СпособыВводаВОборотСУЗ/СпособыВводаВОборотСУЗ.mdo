@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9bca1b27-b6f4-42c3-9a6d-e36c4ef699d3" extendedConfigurationObject="f149a3db-292c-4ccc-a682-1908d728e607">
+  <producedTypes>
+    <refType typeId="22f8eae9-4372-4bd8-a702-ccee45737623" valueTypeId="cfde318a-9b13-40e0-af3a-f05ef377eff4"/>
+    <listType typeId="1e880360-6048-4da9-8b6e-93f893a5ceb6" valueTypeId="b6101c34-2c1b-4e32-9e99-d20971343207"/>
+    <managerType typeId="808b44bf-9559-4532-bfef-48179fab44a4" valueTypeId="b7ff542e-3d4e-449c-b904-dcf2e2cebc88"/>
+  </producedTypes>
+  <name>СпособыВводаВОборотСУЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="8299fd9e-a363-425a-9c67-34fe67d8090c" extendedConfigurationObject="d0559933-92fa-461b-abc7-a566bae24c45">
+    <name>МаркировкаОстатков</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="960c985e-6915-4bfb-a963-cdda33e0421e" extendedConfigurationObject="12ae645b-b8eb-445b-908d-80d1c4570319">
+    <name>Производство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3622f434-c9f2-4814-bc3f-5a677277d95c" extendedConfigurationObject="8144836a-161d-4ee3-80f5-085d5dab706e">
+    <name>Импорт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2811fb51-1cd6-4b89-80d6-f3a6ddf1cb96" extendedConfigurationObject="de59a559-c3ae-4238-8e0f-fad23eb7d5db">
+    <name>ТрансграничнаяТорговля</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="4e51390e-0e9f-43ac-a831-4287d0dd31a8" extendedConfigurationObject="34f35a64-8d8e-45b5-a9df-cdb6cfee15d9">
+    <name>Перемаркировка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

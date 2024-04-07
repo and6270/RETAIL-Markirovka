@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea62d88e-3ce6-47ee-906b-89718a22ddcf">
+  <name>Марк_ЧестныйЗнак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марк честный знак</value>
+  </synonym>
+</mdclass:CommonPicture>
